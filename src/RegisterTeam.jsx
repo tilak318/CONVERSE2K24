@@ -150,7 +150,7 @@ const RegisterTeam = () => {
               onChange={handleChange}
               required
             />
-            <p class="Email-text">If you have <a>SCET id</a> then register with it,ELse go with Gamil </p>
+            <p class="Email-text">If you have <a>SCET id</a> then register with it, Else go with Gmail </p>
           </div>
 
           <div className="form-group">
