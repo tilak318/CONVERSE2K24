@@ -102,12 +102,12 @@ const Register = () => {
           <option value=''>Select Event</option>
           <option value="IT QUIZ">IT QUIZ</option>
           <option value="AI QUIZ">AI QUIZ</option>
-          <option value="LOGO HUNT">LOGO HUNT</option>
+          {/* <option value="LOGO HUNT">LOGO HUNT</option> */}
+          {/* <option value="TECH DEBATE">TECH DEBATE</option> */}
+          {/* <option value="CODATHON">CODATHON</option> */}
           <option value="BUG BUZZ">BUG BUZZ</option>
-          <option value="CODATHON">CODATHON</option>
           <option value="PY-IT">PY-IT</option>
           <option value="AI MEMES">AI MEMES</option>
-          <option value="TECH DEBATE">TECH DEBATE</option>
           <option value="CYBER SIEGE">CYBER SIEGE</option>
           <option value="WEB WAVE">WEB WAVE</option>
         </select>
@@ -136,7 +136,15 @@ const Register = () => {
 
       <div className='form-group'>
         <label htmlFor='college'>College Name:</label>
-        <input type='text' id='college' name='college' placeholder='Enter your college name' value={formData.college} onChange={handleChange} required />
+        <select name='college' id='college' value={formData.college} onChange={handleChange} required>
+          <option value='SCET'>Sarvjanik College of Engineering and Technology,Surat</option>
+          <option value='PPSU'>P P Savani Universirty, Surat</option>
+          <option value='Tapi'>Tapi Diploma Engineering Collage,Surat</option>
+          <option value='SSGandhi'>DRS & SS Gandhi College of Engineering, Surat</option>
+          <option value='BMV'>Bhagwan Mahavir Uiversity, Surat</option>
+          <option value='SVNIT'>SVNIT</option>
+          <option value='other'>Other</option>
+        </select>
       </div>
 
       <div className='form-group'>

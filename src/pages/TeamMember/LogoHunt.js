@@ -79,11 +79,11 @@ function LogoHunt() {
                 </div>
                 <div className="image-card">
                     <img src={ParthKachariya} alt="Coordinator 3" className="imagev" />
-                    <p>Parth Kachariya </p>
+                    <p>Parth Rana</p>
                 </div>
                 <div className="image-card">
                     <img src={ParthRana} alt="Coordinator 4" className="imagev" />
-                    <p>Parth Rana </p>
+                    <p>Parth Kachariya </p>
                 </div>
                 <div className="image-card">    
                     <img src={ShasangThummar} alt="Coordinator 5" className="imagev" />

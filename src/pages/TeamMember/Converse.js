@@ -13,7 +13,7 @@ import uttam from '../../team/10core/uttam8.png';
 import tilak from '../../team/10core/tilak.png';
 import jenish from '../../team/10core/jenish.png';
 import keyur from '../../team/10core/keyur.png';
-import Mukesh from '../../team/faculty/mukesh.png';
+import Hiren from '../../team/faculty/Hiren.png';
 import Ankit from '../../team/faculty/Ankit.png';
 import Karishma from '../../team/faculty/Karishma.png';
 import Nitya from '../../team/faculty/nitya.png';
@@ -44,8 +44,8 @@ function Converse() {
             <h1 className="heading">Faculty Coordinators</h1>
             <div className="image-grid">
                 <div className="image-card">
-                    <img src={Mukesh} alt="Coordinator 1" className="imagef" />
-                    <p>Prof. Mukesh Patel</p>
+                    <img src={Hiren} alt="Coordinator 2" className="imagef" />
+                    <p>Prof. Hiren Vavaiya</p>
                 </div>
                 <div className="image-card">
                     <img src={Ankit} alt="Coordinator 2" className="imagef" />

@@ -10,7 +10,7 @@
     --hover-glow-font-color: #00ffff;
     --transition-speed: 0.3s; 
     --p-font-color: #000000;
-    --info-text-font-color: #c6bcb6;
+    --info-text-font-color: #000000;
     --infobox-color: rgba(30, 30, 30, 0.9);
 }
 
@@ -66,7 +66,8 @@ input[type="text"], input[type="email"], input[type="phone"], select {
     background-color: var(--input-bg-color);
     border: 2px solid var(--input-border-color);
     border-radius: 5px;
-    color: var(--background-color);
+    /* color: var(--background-color); */
+    color: black;
     transition: border-color var(--transition-speed), box-shadow var(--transition-speed);
 }
 select{
@@ -99,7 +100,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="phone"]:focus, 
 
 #submit:hover {
     opacity: 0.9;
-    background-color: var(--background-color);
+    background-color: black;
     color: var(--hover-glow-font-color);
     box-shadow: 0px 0px 8px var(--hover-glow-color);
 }

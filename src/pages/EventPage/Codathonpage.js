@@ -10,7 +10,7 @@ const Codathonpage = () => {
   const navigate = useNavigate();
 
   const handleButtonClick = (event) => {
-    navigate('/register', { state: { event } });
+    navigate('/registerteam', { state: { event } });
   };
 
     return (

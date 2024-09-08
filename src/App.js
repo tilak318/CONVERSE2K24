@@ -10,6 +10,7 @@ import Marketing from './pages/TeamMember/Marketing';
 
 import Register from './Register';
 import Thankyou from './Thankyou';
+import RegisterTeam from './RegisterTeam';
 
 import Decoration from './pages/TeamMember/Decoration';
 import NonTech from './pages/TeamMember/NonTech';
@@ -68,7 +69,9 @@ function App() {
     
     <Route path="register" element={<Register/>}/>
     <Route path="thankyou" element={<Thankyou/>}/>
+    <Route path="registerteam" element={<RegisterTeam/>}/>
     
+
     <Route path="logohunt-team" element={<LogoHunt/>}/>
     <Route path="itquiz-team" element={<Itquiz/>}/>
     <Route path="bugbuzz-team" element={<Bugbuzz/>}/>

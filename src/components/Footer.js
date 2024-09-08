@@ -11,7 +11,7 @@ function Footer() {
         </div>
         <div className="footer-section">
           <h4>Faculty Coordinators</h4>
-          <p>Prof. Mukesh Patel</p>
+          <p>Prof. Hiren Vavaiya</p>
           <p>Prof. Ankit Patel</p>
           <p>Prof. Karishma Desai </p>
           <p>Prof. Nitya Komalan </p>
