@@ -34,12 +34,12 @@
 }
 
 h2 {
-  color: var(--font-color);
+  /* color: var(--font-color);
   padding-bottom: 20px;
   font-size: 32px;
   border-bottom: 2px solid var(--font-color);
   margin-bottom: 20px;
-  text-transform: uppercase;
+  text-transform: uppercase; */
   animation: fadeIn 1s ease-in-out;
 }
 
@@ -99,13 +99,12 @@ h3 {
 
   h2 {
     font-size: 24px;  
-    padding-bottom: 10px; 
-    margin-bottom: 15px;  
+
   }
 
   .con-text, .info-text {
     font-size: 14px; 
-    margin-bottom: 20px;  
+   
   }
 
   .info-box {

@@ -121,7 +121,7 @@ const Register = () => {
       <div className='form-group'>
         <label htmlFor='email'>Email ID:</label> 
         <input type='email' id='email' name='email' placeholder='Enter your email' value={formData.email} onChange={handleChange} required />
-        <p class="Email-text">If you have <a>SCET id</a> then register with it,Else go with Gmail </p>
+        <p class="Email-text">If you have an SCET ID, please register with it; otherwise, use your personal email.</p>
       </div>
 
       <div className='form-group'>

@@ -70,6 +70,9 @@
         flex-direction: column;
         align-items: center;
     }
+    .sponsor-title {
+        font-size: 1.0em;
+    }
     .sponsor-card{
         /* width:00px; */
         margin:10px auto;

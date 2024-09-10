@@ -41,7 +41,7 @@ const HomePage = () => {
         </div>
         <div className='tilak'>
           <div>
-            <p className="tilaks">Title Sponsors</p>
+            <p className="tilaks">Sponsored by</p>
          </div>
          <div className='spo'><SponsorCard/></div>
         </div>

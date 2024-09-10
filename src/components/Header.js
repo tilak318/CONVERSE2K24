@@ -12,8 +12,9 @@ function Header() {
 
   return (
     <>
+    {/* onClick={handleAnimationTrigger} */}
       <header className="header">
-        <div className='logog' onClick={handleAnimationTrigger}>
+        <div className='logog' >
           <img src={logo} alt="Logo" />
         </div>
         

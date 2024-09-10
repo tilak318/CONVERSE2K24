@@ -17,7 +17,7 @@ function Footer() {
           <p>Prof. Nitya Komalan </p>
         </div>
         <div className="footer-section">
-          <h4>Student Heads</h4>
+          <h4>Student Coordinators</h4>
           <p>Mitarsh Savaliya</p>
           <p>Harsh Maniya</p>
           <p>Jensi Ghadiya</p>
@@ -25,9 +25,19 @@ function Footer() {
       
         </div>
         <div className="footer-section">
+          <h4>Converse Leads</h4>
+          <p>Ayush Polara(Finance)</p>
+          <p>Uttam Moradiya(Graphics)</p>
+          <p>Jenish Sonani(Technical)</p>
+          {/* <p>Krupansh Nakrani(Non-tech)</p> */}
+          
+         
+      
+        </div>
+        <div className="footer-section">
           <h4>Web Developers</h4>
           <p>Tilak Viradiya</p>
-          <p>Jenish Sonani</p>
+          
           <p>Keyur Moradiya</p>
           <p>Utsav Vachhani</p>
           <p>Meet Patel</p>

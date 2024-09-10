@@ -1120,7 +1120,7 @@ member
 
 }
 
-@media screen and (max-width: 856px) {
+@media screen and (max-width: 876px) {
   
 
   .slider {
@@ -1277,7 +1277,11 @@ member
  
   
 }
-
+.teams-section div .symb{
+  width:50px;
+  height: 80px;
+  margin-top: 11px;
+ }
 .tv-image {
   width: 100%;
   max-width: 400px;
@@ -1298,12 +1302,12 @@ member
 
 .footer-section h4 {
   color: #d148d3;
-  font-size: 1.2em;
+  font-size: 0.9em;
   margin-bottom: 10px;
 }
 
 .footer-section p {
-  font-size: 1.0em;
+  font-size: 0.7em;
   margin: 2px 0;
 }
 
@@ -1800,7 +1804,11 @@ member
     color:#d148d3;
     
   }
-  
+  .teams-section div .symb{
+    width:30px;
+    height: 40px;
+    margin-top: 10px;
+   }
   .menu {
     list-style: none;
     padding: 0;
@@ -1808,7 +1816,7 @@ member
   }
   
   .menu li {
-    margin-top: -10px;
+    /* margin-top: -0px; */
   }
   
   .welcome-message {
@@ -1857,7 +1865,9 @@ member
    
   }
   .teams-section div .symb{
-    width:40px;
+    width:30px;
+    height: 40px;
+    margin-top: 10px;
    }
    
   .team-card {
@@ -2330,12 +2340,21 @@ font-size:small;
 .converse p{
   font-weight: 450;
 }
-
+.hod{
+  font-size:30px;
+  background: linear-gradient(90deg, #4873ff 40%, #d148d3 60%); /* More distinct color transition */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+  margin-left:2%;
+}
 
 @media screen and (max-width: 669px) {
   .spo{
     flex-direction: column;
     
+  }
+  .hod{font-size: 26px;
   }
 }
 

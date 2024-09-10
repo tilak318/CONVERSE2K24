@@ -58,6 +58,7 @@ const AboutPage = () => {
         <p>
         Converse 2K24 isn't just a festival; it's a chance to connect with fellow enthusiasts, gain insights from industry leaders, and navigate your path into the future of technology and innovation. Mark your calendars and join us for an unforgettable experience that will leave you inspired, informed, and energized. The future is here, and it's unfolding at Converse 2K24!
         </p>
+        <div className='hod'>H.O.D : Dr. Vivaksha Jariwala</div>
       </section>
 
       {/* <footer className="footer">
